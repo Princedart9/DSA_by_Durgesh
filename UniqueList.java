@@ -8,6 +8,8 @@ public class UniqueList {
         // Original String array with duplicates
         String[] users = {"Prince", "Amit", "Neha", "Rahul", "Amit", "Zara"};
 
+        System.out.println("Starting...");
+        System.out.println("Finding uniQue list");
         System.out.println("users list: " + String.join(", ", users));
         
         // Use LinkedHashSet to remove duplicates and maintain order
