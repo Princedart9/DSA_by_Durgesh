@@ -20,5 +20,6 @@ public class UniqueList {
         
         // Print unique users
         System.out.println("Unique users: " + Arrays.toString(uniqueArray));
+        System.out.println(" ----- Done execution");
     }
 }
